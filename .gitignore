@@ -42,3 +42,6 @@ next-env.d.ts
 
 # supabase sql scripts
 supabase/*.sql
+!supabase/schema.sql
+!supabase/fix_setup.sql
+!supabase/seed_doctors.sql
